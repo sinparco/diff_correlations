@@ -1,0 +1,52 @@
+---
+title:  "6060 Practice: RMarkdown"
+author: "Parco Sin"
+output:
+  pdf_document:
+    number_sections: yes
+    toc_depth: 3
+---
+
+```{r,echo=FALSE,message=FALSE, warning=FALSE}
+# Code goes in blocks like this
+
+# load libraries
+library(tidyverse)
+library(apaTables)
+
+```
+
+# Comparing rating-complaint to rating-critical correlations
+
+The comparison for the correlations between ratings and complaints and ratings and critical was delta *r* = .67, 95% CI [.32,1.00], *p* = .0001, *N* = 30. However, the CI is quite long, and is consistent with anywhere from a medium positive to a very strong positive relationship. This indicates that the rating-complaint correlation (*r* = .83, 95% CI [.66,.91]) is likely stronger than the ratings-critical (*r* = .16, 95% CI[-.22, .49) correlation.
+
+
+
+# Comparing rating-complaint to raises-critical correlations
+
+
+The comparison for the correlation between ratings and complaints and raises and critical was delta *r* = .45, 95% CI [.14,.81], *p* = .005, *N* = 30. However, the CI is quite long, and is consistent with anywhere from a weak positive to a very strong positive relationship. This indicates that the rating-complaint correlation (*r* = .83, 95% CI [.66,.91]) is likely stronger than the ratings-critical (*r* = .38, 95% CI[.02, .65) correlation.
+
+
+#Replication of rating-privileges correlation 
+
+
+The original study found a ratings-privileges correlation of *r* = .43, 95% CI [08, .68], 95% PI[.05, 0.74], *N* = 30. This means that if the replication correlation differs from the original correlation only due to sampling error, there is a 95% chance that a replication result with a sample size of *N* = 100 will fall in the interval of .05 and .74. If the replication correlation falls outside of this range, factors beyond sampling error are likely also responsible for the difference.
+
+
+#Replication of rating-privileges correlation 
+
+
+It is not possible to do this because of the large confidence interval in the original ratings-privileges correlation. Prediction intervals involve similar calculations to confidence intervals, and difference confidence intervals are always larger than the two individual correlation confidence intervals that are being compared. Because the original study found a ratings-privileges confidence interval with a width of .60, it is not possible to calculate a prediction interval with a smaller width.
+
+
+#Comparing two correlations of rating-privileges
+
+
+The comparison correlation between orginal and replication studies on the correlation of ratings and privileges was delta *r* = .33, 95% CI [-.02,.59], *p* = .065 . Statistically, this means that  we cannot rule out that the two correlations came from the same population. 
+
+
+#Strength of rating-privileges
+
+
+The correlation between ratings and privileges obtained in Table 1 was *r* = .43, 95% CI [.08, .68]; however, this correlation came from a sample of 30. We could not rule out that a correlation of .10 from a sample of 1000 came from a different population. Because a sample size of 1000 is considerably larger than a sample size of 30, we should assume that the second correlation is much more informative than the first study. As such, we can infer that there is likely a weak positive correlation between ratings and privileges. 
